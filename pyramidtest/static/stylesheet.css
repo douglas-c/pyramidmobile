@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {  }
+body { margin: 0; padding: 0; font-size: 14px; }
+.ui-mobile-viewport {
+	background-color: #FFF;
+}
+
+.ui-page {
+	background-color: #FFF;
+}
+.ui-page.ui-body-c.ui-page-active { background: none; }
+.ui-page.ui-body-c.ui-page-active .ui-content { background: #FFF url(banner_shadow.jpg) repeat-x 0px 0px; }
+.ui-page.ui-body-c.ui-page-active .ui-header { height: 75px; background: #FFF }
+.ui-page.ui-body-c.ui-page-active .ui-header h1 { padding: 20px 0px 10px 0px; font-size: 1.4em; color: #000 }
+.help_button{
+	background:url(help_button.png) center;
+	height: 42px;
+	width: 197px;
+	position: center;
+}
+
+
+#page.ui-page.ui-body-c.ui-page-active .ui-content { background: none; }
+
+#page { padding-top: 20px; background: #FFF; }
+#page .heading { display: none; }
+#page .logo {
+	width: 197px;
+	height: 90px;
+	margin: 0px auto 0px auto;
+	background: url(logo.png) no-repeat center 0px;
+}
+#page .mainmenu {
+	margin: 0px 10px 0px 10px;
+	padding: 15px 15px 0px 15px;
+	border: none;
+}
+#page .mainmenu li { background: none; border: none; }
+#page .mainmenu li .ui-btn-inner { background: none; border: none; margin: 0px; padding: 0px 0px 15px 0px; }
+#page .mainmenu li a {
+	border: 1px solid #fff;
+	border-radius: 16px;
+	color: #ffffff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	background: #666  url(mobile_link_arrow.png) no-repeat right 50%;
+	font-size: 1.15em;
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 4px;
+	margin-left: 2px;
+	padding-top: 7px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	padding-left: 50px;
+}
+
+.ui-bar-a.ui-footer { background: #FFF url(footer_shaddow.png) repeat-x top; border: none; border-top: 1px solid #444; color: #000}
+.ui-bar-a.ui-footer h4.ui-title { font-size: .8em; font-weight: normal; text-align: center; margin: 0px; padding: 20px 30px 20px 30px; }
+
+.ui-content {  }
+span.ui-icon.ui-icon-arrow-r { display: none; }
+
+h2 { font-size: 1.5em; }
+
+figure { width: 250px; float: center; margin: 0px 0px 20px 15px; padding: 0px 0px 0px 10px; }
+figure figcaption { font-size: .8em; color: #777; line-height: .8em; }
